@@ -1,0 +1,48 @@
+body {
+  display: grid;
+  height: 100vh;
+  grid-template: auto 1fr auto / auto 1fr auto
+}
+
+
+header {
+  background: green;
+  padding: 2rem;
+  grid-column: 1 / 4;
+}
+
+.left-sidebar {
+	display: grid;
+  background: teal;
+  grid-column: 1 / 2;
+  grid-template-columns: minmax(150px, 25%) 1fr 1fr;
+}
+
+main {
+  background: blue;
+  grid-column: 2 / 3;
+  text-align: center;
+}
+
+.right-sidebar {
+ display: grid;
+  background: coral;
+  grid-column: 3 / 4;
+  grid-template-columns: minmax(150px, 25%) 1fr 1fr;
+}
+
+footer {
+  background: purple;
+  padding: 2rem;
+  text-align: center;
+  grid-column: 1 / 4;
+}
+
+body {
+  font-family: system-ui, sans-serif;
+}
+
+.left-sidebar,
+.right-sidebar {
+  padding: 1rem;
+}
