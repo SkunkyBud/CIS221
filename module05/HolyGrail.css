@@ -15,7 +15,7 @@ header {
 	display: grid;
   background: teal;
   grid-column: 1 / 2;
-  grid-template-columns: minmax(150px, 25%) 1fr 1fr;
+  grid-template-columns: minmax(150px, auto) 1fr 1fr;
 }
 
 main {
@@ -28,7 +28,7 @@ main {
  display: grid;
   background: coral;
   grid-column: 3 / 4;
-  grid-template-columns: minmax(150px, 25%) 1fr 1fr;
+  grid-template-columns: minmax(150px, auto) 1fr 1fr;
 }
 
 footer {
