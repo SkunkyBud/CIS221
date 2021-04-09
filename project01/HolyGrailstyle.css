@@ -1,0 +1,78 @@
+body {
+  display: grid;
+  height: 100vh;
+  grid-template: auto 1fr auto / auto 1fr auto
+}
+h1.Title {
+text-align: center;
+font-size: 3em;
+}
+ .Notebook {
+width: 13%;
+height: 40%;
+
+ }
+#header {
+  background: green;
+  padding: 2rem;
+  grid-column: 1 / 4;
+  text-align: center;
+  
+}
+img { padding-left: 10px;
+      padding-right: 10px;
+	  width: 150px;
+	  height: 150px;
+	  padding-left: 10px;
+	  padding-right: 10px;
+	  }
+
+
+#left-sidebar {
+  background: teal;
+  grid-column: 1 / 2;
+  grid-template-columns: minmax(150px, auto) 1fr;
+}
+
+#main {
+  background: lightblue;
+  grid-column: 2 / 3;
+  text-align: center;
+}
+
+#right-sidebar {
+  background: coral;
+  grid-column: 3 / 4;
+  grid-template-columns: minmax(150px, auto) 1fr;
+  
+}
+
+#footer {
+  background: gray;
+  padding: 2rem;
+  text-align: center;
+  grid-column: 1 / 4;
+}
+
+body {
+  font-family: system-ui, sans-serif;
+}
+
+#left-sidebar,
+#right-sidebar {
+  padding: 1rem;
+  
+}
+ul {
+position: relative;
+z-index: 1;}
+
+#Science {
+	text-align: center;
+}
+#Math {
+	text-align:center;
+}
+#History {
+	text-align: center;
+}
