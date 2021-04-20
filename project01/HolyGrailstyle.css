@@ -7,10 +7,9 @@ h1.Title {
 text-align: center;
 font-size: 3em;
 }
- .Notebook {
+.Notebook {
 width: 13%;
 height: 40%;
-
  }
 #header {
   background: green;
@@ -26,12 +25,9 @@ img { padding-left: 10px;
 	  padding-left: 10px;
 	  padding-right: 10px;
 	  }
-
-
 #left-sidebar {
   background: teal;
   grid-column: 1 / 2;
-  grid-template-columns: minmax(150px, auto) 1fr;
 }
 
 #main {
@@ -43,8 +39,6 @@ img { padding-left: 10px;
 #right-sidebar {
   background: coral;
   grid-column: 3 / 4;
-  grid-template-columns: minmax(150px, auto) 1fr;
-  
 }
 
 #footer {
@@ -57,22 +51,21 @@ img { padding-left: 10px;
 body {
   font-family: system-ui, sans-serif;
 }
-
 #left-sidebar,
 #right-sidebar {
   padding: 1rem;
-  
 }
-ul {
+ul.list {
 position: relative;
-z-index: 1;}
+z-index: 1;
+}
 
-#Science {
+.Science {
 	text-align: center;
 }
-#Math {
+.Math {
 	text-align:center;
 }
-#History {
+.History {
 	text-align: center;
 }
