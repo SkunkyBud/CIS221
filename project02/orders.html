@@ -25,15 +25,45 @@
 <div id="main"> 
 <h1>Welcome to Austins' Burgers</h1><br>
 <form>
-<label>Place an Order</label>
-<select name="Food">
-<option>Chicken and Beef.</option>
-<option>Double Burger.</option>
-<option>Bacon Burger.</option>
-<option>Seasoned Chicken.</option>
-<option>Fried Chicken.</option>
-<option>BBQ Chicken.</option>
-</select><br>
+  <p>Burgers:</p>
+  <input type="radio" name="Burger" value="Chicken and Beef">
+  <label>Chicken and Beef</label><br>
+  <input type="radio" name="Burger" value="Double Burger">
+  <label>Fried Chicken</label><br>
+  <input type="radio" name="Burger" value="Bacon Burger">
+  <label>BBQ Chicken</label>
+  <br>
+   <p>Roast Beef Sandwiches:</p>
+  <input type="radio" name="Roast" value="Plain Roast Beef">
+  <label>Plain Roast Beef</label><br>
+  <input type="radio" name="Roast" value="Roast Beef w/ Cheese">
+  <label>Roast Beef w/ Cheese</label><br>
+  <input type="radio" name="Roast" value="Roast Beef w/ the works">
+  <label>Roast Beef w/ the works</label>
+  <br>
+   <p>Pasta:</p>
+  <input type="radio" name="Pasta" value="Spagetti">
+  <label>Spagetti</label><br>
+  <input type="radio" name="Pasta" value="Rotini">
+  <label>Rotini</label><br>
+  <input type="radio" name="Pasta" value="Mac and Cheese">
+  <label>Mac and Cheese</label>
+  <br>
+   <p>Fish Meals:</p>
+  <input type="radio" name="Fish" value="Salmon">
+  <label>Salmon</label><br>
+  <input type="radio" name="Fish" value="Trout">
+  <label>Trout</label><br>
+  <input type="radio" name="Fish" value="Cod">
+  <label>Cod</label>
+  <br>  
+  <p>Chicken Meals:</p>
+  <input type="radio" name="Chicken" value="Seasoned Chicken">
+  <label>Seasoned Chicken</label><br>
+  <input type="radio" name="Chicken" value="Fried Chicken">
+  <label>Fried Chicken</label><br>  
+  <input type="radio" name="Chicken" value="BBQ Chicken">
+  <label>Bacon Burger</label><br><br>
 <fieldset>
 <legend>What kind of toppings do you want?</legend>
 <input type="checkbox" name="Toppings" id="checkbox">Onions<br>
@@ -43,6 +73,8 @@
 <label> What is your name</label><br>
 <input type="text" name="Fname" id="FLname">First Name</input><br>
 <input type="text" name="Lname" id="FLname">Last Name</input><br><br><br>
+<label>Tell us what you think of our Food.</label>
+<textarea></textarea>
 <input type="submit" name="submit" value="Submit" id="submit">
 </form>
 </div> 
