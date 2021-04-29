@@ -184,7 +184,6 @@ iframe {
       animation-name: arrowlight;
       animation-duration:13s;
       animation-iteration-count: infinite;
-	  animation-delay: 2.5s;
     }
 
     @keyframes redlight {
@@ -239,21 +238,18 @@ iframe {
       
     }
     @keyframes arrowlight {
-      0% {
+      0% {  background-image:none;
+      }
+      90% {
         background-image:none;
       }
-      70% {
-        background-image:none;
-      }
-      71% {
+      91% {
         background-image:url(image/arrow.png);
       }
-	  
       100% {
-        background-image:url(image/arrow.png);	
+        background-image:url(image/arrow.png);
       }
-   
-    }
+	}
 
 /*--------------------------------------------------------------
 # Footer Area
